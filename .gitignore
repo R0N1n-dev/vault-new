@@ -1,0 +1,17 @@
+# Wails build output
+build/bin/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Never commit a vault or its backup
+*.coffer
+*.coffer.bak
+*.coffer.tmp
+
+# Editors and OS cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
